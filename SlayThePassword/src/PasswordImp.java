@@ -1,6 +1,4 @@
-import java.util.*;
-
-
+import Conditions.Conditions;
 
 public class PasswordImp {
     public final int difficulty;
@@ -9,6 +7,6 @@ public class PasswordImp {
 
     public PasswordImp(String conditions[]){
         difficulty= 0;
-        this.conditions = conditions;
+        //this.conditions = conditions;
     }
 }
